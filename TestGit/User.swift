@@ -11,7 +11,7 @@ struct User {
     let id: UUID = UUID()
     let name: String
     let password: String
-    let phone: String
+    let phone: Double
 }
 
 typealias Users = [User]
